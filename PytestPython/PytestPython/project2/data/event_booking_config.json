@@ -1,0 +1,13 @@
+{
+  "booking_scenarios": {
+    "happy_path_booking": {
+      "username": "vashutosh@playwright.com",
+      "password": "Shubh@123",
+      "event_name": "Some Event",
+      "expected": {
+        "result": "success",
+        "confirmation_text": "Booking confirmed"
+      }
+    }
+  }
+}
