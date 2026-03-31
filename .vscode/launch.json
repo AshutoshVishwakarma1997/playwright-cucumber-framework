@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug EventHub Test",
+        "type": "python",
+        "request": "launch",
+        "program": "${workspaceFolder}/PytestPython/PytestPython/project2/test/test_eventhub_steps.py",
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}/PytestPython/PytestPython"
+        }
+      },
+      {
+        "name": "Debug All Tests",
+        "type": "python",
+        "request": "launch",
+        "module": "pytest",
+        "args": [
+          "--maxfail=1",
+          "-v"
+        ],
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "env": {
+          "PYTHONPATH": "${workspaceFolder}/PytestPython/PytestPython"
+        }
+      }
+    ]
+  }
